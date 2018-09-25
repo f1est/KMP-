@@ -1,5 +1,5 @@
-# include <string>
-# include <vector>
+#include <string>
+#include <vector>
 #include <iostream>
 
 /*
@@ -65,7 +65,7 @@ int main() {
 
 	std::cout << find_substring("ddabcd", "??bf") << '\n';  // returns  -1
 	std::cout << find_substring("abcd", "a?cd") << '\n';    // returns  0
-    std::cout << find_substring("abcd", "abcd") << '\n';    // returns  0
+	std::cout << find_substring("abcd", "abcd") << '\n';    // returns  0
 	std::cout << find_substring("abcd", "ab") << '\n';      // returns  0
 	std::cout << find_substring("ab", "abcd") << '\n';      // returns  -1
 	std::cout << find_substring("ababc", "abc") << '\n';    // returns  2
